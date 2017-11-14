@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+.creative-agency{
+	box-shadow: 1px 1px 10px 1px #000;
+	/*height:100px;
+*/}
+.creative-agency-plus{
+	color:#38b5d1;
+	color: #38b5d1;
+	font-size: 132px;
+	padding: 0px 0px 100px 401px;
+	z-index: 1;
+	position:relative;
+}
+.we-re{
+	text-align: center;
+	margin-top: 8%;
+}
+.cr{
+	text-align: center;
+	color:#ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	z-index: 2;
+	position: relative;
+	margin: -24% 0% 0% 0%;
+	letter-spacing: -1px;
+}
+.news-sub1{
+	position:relative;
+	z-index:3;
+	margin-left: 35%;
+	width: 32%;
+	font-size: 12px;
+	color: #d4d4d4;
+}
+.learn-more-btn{
+	border: 1px solid #ffffff;
+	    padding: 5px 15px;
+	    background: #ffffff;
+	    color:#4c4e5a;
+	    font-weight:700;
+	    width: 50px;
+	    border-radius: 25px;
+	    font-size: 10px;
+}
+.buy-more{
+	border: 1px solid #ffffff;
+	    padding: 5px 15px;
+	    background: #4c4e5a;
+	    color:#ffffff;
+	    font-weight:700;
+	    width: 50px;
+	    border-radius: 25px;
+	    font-size: 10px;
+}
+.btns{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.dots ul{
+	display:inline-block;
+}
+
+.sub-footer{
+	background:#4c4e5a;
+	color:#ffffff;
+	padding-left:7%;
+}
+.news{
+	font-weight: 700;
+	letter-spacing: -0.5px;
+}
+.news:after{
+	content: "";
+	display: block;
+	width: 6%;
+	border-bottom: 1px solid #38b5d1;
+}
+.news-sub{
+	font-size: 10px;
+	padding-top: 4%;
+	color: #d5caca;
+}
+input[type=text] {
+
+	border:none;
+	width: 100px;
+}
+input[type=text]:focus {
+  width: 250px;
+  color:#000;
+}
+.news-email{
+	padding-top:3%;
+	font-size: 10px;
+}
+.news-email:after{
+	content:"";
+	display:block;
+	border-bottom:1px solid black;
+	width:60%;
+	padding-top:1%;
+}
+.email-msg{
+	font-size: 8px;
+	padding-top: 2%;
+	color: #d5caca;
+}
+.send-btn{
+		border: 2px solid #38b5d1;
+	    padding: 5px 30px; 
+	    background: #38b5d1;
+	    color:#ffffff;
+	    font-weight:700;
+	    width: 50px;
+	    border-radius: 25px;
+	}
+	.send{
+	float: right;
+	}
+	.get-in-touch{
+		background: #000000;
+		color: #ffffff;
+		letter-spacing: 1.5px;
+		font-weight: 700;
+		padding: 3% 3% 0% 3%;
+		line-height: 27px;
+	}
+	.get-btn{
+		border: 1px solid #ffffff;
+	    padding: 5px 30px; 
+	    font-size:10px;
+	    background: #000000;
+	    color:#d5caca;
+	    width: 50px;
+	    border-radius: 25px;
+	}
+	.get-in-touch-btn{
+		margin:8%;
+	}
+
+	.img-style{
+		float: left;
+		margin-left:6%;
+		width: 25%;
+		padding: 2% 0% 0% 2%;
+	}
+	.img-style1{
+	border-bottom: 1px solid skyblue;
+	padding-bottom: 15%;
+	width: 25%;
+	margin-left: 37%;
+	}
+	.img-style-text1{
+		color: white;
+		text-align: center;
+		font-weight: bolder;
+	}
+	.img-style-text2{
+		color: white;
+		text-align: center;
+		font-size: 8px;
+	}
+	
+.who-are-we-block{
+	padding: 5% 5% 10% 5%;
+	width: 32%;
+	float: left;
+	background-image: url("blog.jpg");
+	margin: 5%;
+}
+.whoAreWe{
+	
+	border: 7px solid skyblue;
+font-size: 30px;
+font-weight: 700;
+padding: 8% 8% 30% 8%;
+}
+.who-are-we-data{
+	display: block;
+padding: 6%;
+margin-top: 9%;
+color: #d4d4d4;
+}
+.read-more-btn{
+		border: 2px solid #d4d4d4;
+	padding: 5px 30px;
+	color: #d4d4d4;
+	/*font-weight: 700;*/
+	width: 50px;
+	border-radius: 25px;
+	margin-left: 5%;
+	}
+.why-us{
+	text-align: center;
+font-size: 33px;
+font-weight: 700;
+margin-top: -2.2%;
+}
+.why-us:after{
+	content: "";
+	display: block;
+	border-bottom: 1px solid #38b5d1;;
+	width: 6%;
+	margin-left: 48%;
+}
+
+</style>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-lg-12" style="background:#4c4e5a;color:#ffffff;padding:1.5%;">
+		<span style="margin: 4%;"><span class="glyphicon glyphicon-plus"></span>&nbsp;<span style="font-weight: 700;">TEN</span><sup><span class="glyphicon glyphicon-plus" style="color:#38b5d1;"></span></sup></span>
+		<span style="float: right;margin-right: 7%;"><span>MENU</span>&nbsp;<span class="glyphicon glyphicon-align-left"></span></span>
+		</div>
+	</div>
+	<div class="row" style="background: #4c4e5a;color:#ffffff;padding-bottom:5%;">
+		<div class="col-md-1 col-sm-1 col-lg-1"></div>
+		<div class="col-md-10 col-sm-10 col-lg-10 creative-agency">
+			<span class="glyphicon glyphicon-arrow-left" style="float:left;padding-top: 19%;"></span>
+			<span class="glyphicon glyphicon-arrow-right" style="float:right;padding-top: 19%;"></span>
+			<div class="we-re">WE'RE</div>
+			<div class="glyphicon glyphicon-plus creative-agency-plus"></div>
+			<div class="cr">CREATIVE <br>AGENCY</div>
+			<div class="news-sub1">Lorem ipsum sit amet consectetur adpicising elitsed doeiusmed tempor incididuat ut dolore magna aliqua</div>
+			<div class="btns">
+				<span class="learn-more-btn">LEARN MORE</span>&nbsp;&nbsp;
+				<span class="buy-more">BUY MORE</span>
+			</div>
+
+		</div>
+		<div class="col-md-1 col-sm-1 col-lg-1 "></div>
+	</div>
+	<div class="row" style="background: #4c4e5a;color:#ffffff;padding-bottom:5%;">
+		<div class="col-md-1 col-sm-1 col-lg-1 "></div>
+		<div class="col-md-5 col-sm-5 col-lg-5 who-are-we-block">
+
+			<span class="whoAreWe">WHO  ARE  WE</span>
+		</div>
+		<div class="col-md-5 col-xs-5 col-lg-5 who-are-we-content">
+			
+			<p class="who-are-we-data">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre-henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+			<div class="read-more"><span class="read-more-btn">READ MORE</span></div>
+		</div>
+		<div class="col-md-1 col-sm-1 col-lg-1 "></div>
+	</div>
+
+	<div class="row" style="background: #4c4e5a;color:#ffffff;padding-bottom:5%;">
+		<div class="col-md-1 col-sm-1 col-lg-1 "></div>
+		<div class="col-md-10 col-sm-10 col-lg-10" style="background-color: #1b1b1e; color:#ffffff">
+			<div class="why-us"><sup><span class="glyphicon glyphicon-plus" style="color:#38b5d1;"></span></sup><span>WHY US</span></div>
+
+			<div class="mail-content" style="text-align: center;">
+				<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.
+			</div >
+
+			<div>
+				<span class="img-style">
+					<img src="/home/apurva/HTML_CSS/CSS/block1.png" class="img-style1"><br><br>
+					<p class="img-style-text1" >KEEP PULSE GOING</p><br>
+					<p class="img-style-text2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p><br>
+				</span>
+				<span class="img-style">
+					<img src="/home/apurva/HTML_CSS/CSS/block2.png" class="img-style1"><br><br>
+					<p class="img-style-text1" >PASS THE LIMITS</p><br>
+					<p class="img-style-text2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p><br>
+				</span>
+				<span style="float: left;margin-left: 7%;width: 25%;padding: 0% 0% 0% 2%">
+					<img src="/home/apurva/HTML_CSS/CSS/block3.png" class="img-style1"><br><br>	
+					<p class="img-style-text1" >GREAT IDEAS</p><br>					
+					<p class="img-style-text2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p><br>
+				</span>
+			</div>
+		</div>
+		<div class="col-md-1 col-sm-1 col-lg-1 "></div>
+	</div>
+
+	 <div class="row sub-footer" style="padding-bottom:5%;">
+		<div class="col-xs-1 col-md-1 col-lg-1"><span class="glyphicon glyphicon-plus" style="color:#38b5d1;padding-left: 100%;"></span></div>
+		<div class="col-xs-11 col-md-5 col-lg-5">
+			<span class="news">STAY INFORMED<br>WITH OUR NEWS LETTER</span>
+			<div class="news-sub">Lorem ipsum sit amet consectetur adpicising elitsed doeiusmed<br>tempor incididuat ut dolore magna aliqua</div>
+			<div class="news-email">
+		      	<span class="glyphicon glyphicon-envelope" style="color:black;"></span>
+		      	<input type="text" name="search" placeholder="Your Mail" style="background: #4c4e5a;color:#000;">
+		      	<div class="send"><span class="send-btn">SEND</span></div>
+      		</div>
+      		<div class="email-msg">
+      		PLEASE TRUST US WE WILL NEVER SEND YOU SPAM
+      		</div>
+      		<br><br>
+		</div>
+		<div class="col-xs-8 col-md-4 col-lg-4 get-in-touch">
+			<span style="font-size:20px;">YOU THINK WE'RE COOL? LET'S WORK TOGETHER</span><br>
+			<div class="get-in-touch-btn"><span class="get-btn">GET IN TOUCH</span></div>
+		</div>
+		<div class="col-xs-4 col-md-1 col-lg-1"></div>
+		
+	</div>
+
+	<div class="row foot" style="background:#4c4e5a;color:#ffffff;padding:1.5%; ">
+		<div class="col-md-1 col-lg-1" ></div>
+		<div class="col-md-1 col-sm-2 col-lg-1" >
+			<span class="glyphicon glyphicon-plus"></span>&nbsp;<span style="font-weight: 700;">TEN</span><sup><span class="glyphicon glyphicon-plus" style="color:#38b5d1;"></span></sup>
+		</div>	
+			
+		<div class="col-md-7 col-sm-8 col-lg-7" >
+				<ul style="display:inline-block;padding:0;text-align: center; font-size: 10px;">
+					<li style="display:inline;padding:1px;">ABOUT US&nbsp;&nbsp;</li>
+					<li style="display:inline;padding:1px;">SERVICES&nbsp;&nbsp;</li>
+					<li style="display:inline;padding:1px;">PORTFOLIO&nbsp;&nbsp;</li>
+					<li style="display:inline;padding:1px;">CONTACT US&nbsp;&nbsp;</li>
+				</ul>
+		</div>
+		<div class="col-md-3 col-sm-2 col-lg-3" >
+				<span class="glyphicon glyphicon-circle-arrow-right"></span>
+				<span class="glyphicon glyphicon-circle-arrow-right"></span>
+				<span class="glyphicon glyphicon-circle-arrow-right"></span>
+				<span class="glyphicon glyphicon-circle-arrow-right"></span>
+		</div>	
+
+	</div>
+</div>
+</body>
+</html>
